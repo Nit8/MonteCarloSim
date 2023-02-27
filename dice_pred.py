@@ -41,7 +41,7 @@ for i in range(num_simulations):
         same = roll_dice()
         # Result if the dice are the same number
         if same:
-            balance.append(balance[-1] + 6 * bet)
+            balance.append(balance[-1] + 5 * bet)
             num_wins += 1
         # Result if the dice are different numbers
         else:
